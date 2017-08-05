@@ -1,8 +1,9 @@
+<?php if (!isset($page_title)) {$page_title = 'Staff Area';} ?>
 <!doctype html>
 
 <html lang="en">
   <head>
-    <title>Globe Bank International</title>
+    <title>Globe Bank International - <?php echo $page_title; ?></title>
     <meta charset="utf-8">
     <!-- Styles -->
     <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
