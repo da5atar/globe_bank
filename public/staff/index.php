@@ -1,35 +1,9 @@
-<!doctype html>
+<?php require_once('../../private/initialize.php'); ?>
+<!-- Always use static string when loading php files and not dynamic data -->
+<?php include("../../private/shared/staff_header.php"); ?>
 
-<html lang="en">
-  <head>
-    <title>Globe Bank International</title>
-    <meta charset="utf-8">
-    <!-- Styles -->
-    <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
-  </head>
-    <header>
-      <h1>
-        GBI Staff Area
-      </h1>
-
-    </header>
-
-    <navigation>
-      <ul>
-        <li>
-          <a href="index.php">Menu</a>
-        </li>
-      </ul>
-    </navigation>
     <div id="content">
 
     </div>
 
-    <footer>
-      &copy; <?php echo date('Y'); ?> Globe Bank
-    </footer>
-
-  <body>
-
-  </body>
-</html>
+<?php include("../../private/shared/staff_footer.php"); ?>
